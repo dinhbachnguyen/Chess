@@ -1,0 +1,140 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>CHESS</title>
+    <link rel="stylesheet" href="./assets/css/plateau.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script type="text/javascript" src="assets/js/chess.js" async></script>
+    <script type="text/javascript" src="assets/js/chess2.js" async></script>
+</head>
+
+<body>
+    <div>
+        <section>
+            <header>
+                <h1>TP noté - CHESS - HTML&CSS&JS</h1>
+            </header>
+            <article>
+                <div class="container">
+                    <div class='plateau'>
+                        <div class='casefix'>8</div>
+
+                        <div id='81' class='case tour-noir' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='82' class='case cavalier-noir' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='83' class='case fou-noir' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='84' class='case roi-noir' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='85' class='case reine-noir' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='86' class='case fou-noir' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='87' class='case cavalier-noir' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='88' class='case tour-noir' onclick="selectionne(this), mouvement(this)"></div>
+
+                        <div class='casefix'>7</div>
+
+                        <div id='71' class='case pion-noir' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='72' class='case pion-noir' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='73' class='case pion-noir' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='74' class='case pion-noir' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='75' class='case pion-noir' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='76' class='case pion-noir' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='77' class='case pion-noir' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='78' class='case pion-noir' onclick="selectionne(this), mouvement(this)"></div>
+
+
+                        <div class='casefix'>6</div>
+
+                        <div id='61' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='62' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='63' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='64' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='65' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='66' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='67' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='68' class='case' onclick="selectionne(this), mouvement(this)"></div>
+
+                        <div class='casefix'>5</div>
+
+                        <div id='51' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='52' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='53' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='54' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='55' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='56' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='57' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='58' class='case' onclick="selectionne(this), mouvement(this)"></div>
+
+                        <div class='casefix'>4</div>
+
+                        <div id='41' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='42' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='43' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='44' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='45' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='46' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='47' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='48' class='case' onclick="selectionne(this), mouvement(this)"></div>
+
+                        <div class='casefix'>3</div>
+
+                        <div id='31' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='32' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='33' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='34' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='35' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='36' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='37' class='case' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='38' class='case' onclick="selectionne(this), mouvement(this)"></div>
+
+                        <div class='casefix'>2</div>
+
+                        <div id='21' class='case pion-blanc' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='22' class='case pion-blanc' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='23' class='case pion-blanc' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='24' class='case pion-blanc' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='25' class='case pion-blanc' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='26' class='case pion-blanc' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='27' class='case pion-blanc' onclick="selectionne(this), mouvement(this)"></div>
+                        <div id='28' class='case pion-blanc' onclick="selectionne(this), mouvement(this)" "></div>
+
+                        <div class='casefix'>1</div>
+                        <div id='11' class='case tour-blanc' onclick="selectionne(this), mouvement(this) "></div>
+                        <div id='12' class='case cavalier-blanc' onclick="selectionne(this), mouvement(this) ""></div>
+                        <div id='13' class='case fou-blanc' onclick="selectionne(this), mouvement(this)" "></div>
+                        <div id='14' class='case roi-blanc' onclick="selectionne(this), mouvement(this) ""></div>
+                        <div id='15' class='case reine-blanc' onclick="selectionne(this), mouvement(this)" "></div>
+                        <div id='16' class='case fou-blanc' onclick="selectionne(this), mouvement(this) ""></div>
+                        <div id='17' class='case cavalier-blanc' onclick="selectionne(this), mouvement(this)" "></div>
+                        <div id='18' class='case tour-blanc' onclick="selectionne(this), mouvement(this) "></div>
+
+                        <div class='casefix'></div>
+
+                        <div class='casefix'>a</div>
+                        <div class='casefix'>b</div>
+                        <div class='casefix'>c</div>
+                        <div class='casefix'>d</div>
+                        <div class='casefix'>e</div>
+                        <div class='casefix'>f</div>
+                        <div class='casefix'>g</div>
+                        <div class='casefix'>h</div>
+
+                    </div>
+
+
+                 
+                    <div id='scorej1'>Score Jouer 1 = <span id='score1'>0</span></div>
+                    <div id='scorej2'>Score Jouer 2 = <span id='score2'>0</span></div>
+                    <div id='scorej2'>Turn Jouer = <span id='turn'>1</span></div>
+
+
+                    <button id="clear " onclick="clearGame() ">Clear Partie</button>
+                    <button id="setGame " onclick="setGame() ">Set Partie</button>
+                    <button id="reloadGame " onclick="reloadGame() ">Reload Partie</button>
+
+
+                </div>
+            </article>
+        </section>
+    </div>
+</body>
+
+</html>
