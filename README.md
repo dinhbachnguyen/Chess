@@ -3,7 +3,9 @@
 | Binôme  | Valeurs |
 | ------------- |:-------------:|
 | N°     | 09    |
-| Membres      | Dinh Bach Nguyen     | Antoine Bernard
+| Membres      | Dinh Bach Nguyen   
+|              | Antoine Bernard
+
 
 Dernière question traitée : 
 
