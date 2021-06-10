@@ -1,0 +1,183 @@
+/**
+Style pour les pièces noires.
+*/
+
+.pion-noir {
+    background-image: url("../img/noir-pion.gif");
+    background-size: cover;
+}
+
+.tour-noir {
+    background-image: url("../img/noir-tour.gif");
+    background-size: cover;
+}
+
+.cavalier-noir {
+    background-image: url("../img/noir-cavalier.gif");
+    background-size: cover;
+}
+
+.fou-noir {
+    background-image: url("../img/noir-fou.gif");
+    background-size: cover;
+}
+
+.roi-noir {
+    background-image: url("../img/noir-roi.gif");
+    background-size: cover;
+}
+
+.reine-noir {
+    background-image: url("../img/noir-reine.gif");
+    background-size: cover;
+}
+
+
+/**
+Style pour les pièces blanches.
+*/
+
+.pion-blanc {
+    background-image: url("../img/blanc-pion.gif");
+    background-size: cover;
+}
+
+.tour-blanc {
+    background-image: url("../img/blanc-tour.gif");
+    background-size: cover;
+}
+
+.cavalier-blanc {
+    background-image: url("../img/blanc-cavalier.gif");
+    background-size: cover;
+}
+
+.fou-blanc {
+    background-image: url("../img/blanc-fou.gif");
+    background-size: cover;
+}
+
+.roi-blanc {
+    background-image: url("../img/blanc-roi.gif");
+    background-size: cover;
+}
+
+.reine-blanc {
+    background-image: url("../img/blanc-reine.gif");
+    background-size: cover;
+}
+
+.green {
+    background-color: rgb(0, 255, 98);
+}
+
+
+/**
+Style pour le plateau.
+*/
+
+.case {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+}
+
+.casefix {
+    background-color: rgba(255, 255, 255, 0.836);
+    font-weight: bold;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    margin: auto;
+}
+
+.case:nth-child(odd) {
+    background-color: rgb(149, 139, 158);
+}
+
+.case:hover {
+    color: #fff;
+    background: rgba(37, 88, 228, 0.712);
+}
+
+.pion-noir:hover {
+    background-image: url("../img/noir-pion.gif");
+    background-size: cover;
+}
+
+.tour-noir:hover {
+    background-image: url("../img/noir-tour.gif");
+    background-size: cover;
+}
+
+.cavalier-noir:hover {
+    background-image: url("../img/noir-cavalier.gif");
+    background-size: cover;
+}
+
+.fou-noir:hover {
+    background-image: url("../img/noir-fou.gif");
+    background-size: cover;
+}
+
+.roi-noir:hover {
+    background-image: url("../img/noir-roi.gif");
+    background-size: cover;
+}
+
+.reine-noir:hover {
+    background-image: url("../img/noir-reine.gif");
+    background-size: cover;
+}
+
+.pion-blanc:hover {
+    background-image: url("../img/blanc-pion.gif");
+    background-size: cover;
+}
+
+.tour-blanc:hover {
+    background-image: url("../img/blanc-tour.gif");
+    background-size: cover;
+}
+
+.cavalier-blanc:hover {
+    background-image: url("../img/blanc-cavalier.gif");
+    background-size: cover;
+}
+
+.fou-blanc:hover {
+    background-image: url("../img/blanc-fou.gif");
+    background-size: cover;
+}
+
+.roi-blanc:hover {
+    background-image: url("../img/blanc-roi.gif");
+    background-size: cover;
+}
+
+.reine-blanc:hover {
+    background-image: url("../img/blanc-reine.gif");
+    background-size: cover;
+}
+
+.container {
+    width: 50%;
+    margin-left: 0%;
+}
+
+.tourblancadd {
+    /* background-color: rgb(255, 5, 5); */
+}
+
+.pionnoiradd {
+    /* background-color: hotpink; */
+}
+
+.bleu {
+    background-color: blue
+}
+
+.rouge {
+    background-color: red;
+}
