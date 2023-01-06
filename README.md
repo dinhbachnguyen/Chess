@@ -17,21 +17,21 @@ Structure HTML: Display Grid
 Style CSS: pseudo-class nth-child
 
 ### Plateau de jeu
-Ok
+
 
 #### Structure HTML
-Ok
+
 Display Grid
 
 #### Style CSS
-Ok
+
 Style CSS: pseudo-class nth-child
 
 #### Pièces
-Ok
+
 
 ### Moteur du jeu
-Ok
+
 
 #### Tour par tour
 Ok
