@@ -34,20 +34,20 @@ Style CSS: pseudo-class nth-child
 
 
 #### Tour par tour
-Ok
+
 
 #### Initialisation et réinitialisation du plateau
-Ok
+
 
 #### Gestion des pièces
-Ok
+
 Des pièces peuvent bouger partout sur le plateau
 Les pièces blanches peuvent éliminer les pièces noires mais pas l'inverse car pas trouver l'erreur
 Gagner si il y a plus roi sur le plateau
 
 
 #### Condition de victoire
-Ok
+
 
 #### Gestion du score
-Ok
+
