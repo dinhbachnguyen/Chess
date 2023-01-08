@@ -1,15 +1,5 @@
-# TP noté - CHESS - HTML&CSS&JS
+# CHESS - HTML&CSS&JS
 
-| Binôme  | Valeurs |
-| ------------- |:-------------:|
-| N°     | 09    |
-| Membres      | Dinh Bach Nguyen   
-|              | Antoine Bernard
-
-
-Dernière question traitée : 
-
-----
 
 ## Choix techniques
 
